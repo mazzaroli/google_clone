@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    padding: 3px;
+
+}
+
+nav .nav-right-section a:hover{
+    text-decoration: underline;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 23px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+/* main .main-logo img{
+    /* width: 272px; 
+} */
+
+main .main-input {
+    width: 584px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+main .main-input-container {
+    width: 582px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px #e8eaed solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 487px;
+    height: 34px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;  
+    border-color: #dfe1e500; 
+}
+
+main .main-input .search-icon {
+    background-image: url("https://image.flaticon.com/icons/png/512/16/16492.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    margin-right: 15px;
+    filter: opacity(0.35);
+
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+}
+
+main .main-buttons {
+    width: 584px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+    /* border: ; */
+}
+
+main .main-buttons button {
+    width: 153px;
+    height: 36px;
+    margin: 11px 4px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    color: #3c4043;
+    outline: none;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+main .main-change-language a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+main .main-change-language a:hover {
+    text-decoration: underline;
+}
+
+.arriba{
+    width: 100%;
+   
+
+    position: absolute;
+    bottom:  48.28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f2f2f2;   
+}
+
+.arriba p {
+    padding: 15px 30px ;
+    margin: 0px;
+    color: #70757a;
+    font-size: 15px;
+}
+
+
+footer {
+    width: 100%;
+    height: 48.28px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid #dadce0;
+}
+
+
+
+footer ul {
+    margin:15px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+    margin-left: 25px;
+
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a {
+    padding: 5px;
+    margin: 10px;
+    color: #70757a;
+    text-decoration: none;
+}
